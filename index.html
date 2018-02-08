@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta charset="UTF-8">
+
+    <link rel="apple-touch-icon" href="./files/icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./files/icon.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./files/icon.png">
+    <link rel="apple-touch-startup-image" href="./files/icon.png">
+    <title><小蜡烛>我发现了一款增强现实祈福应用</title>
+    <meta property="og:title" content="geometry-virtual-west-download">
+    <meta property="og:locale" content="en_US">
+    <meta name="description" content="for download">
+    <meta property="og:description" content="for download">
+    <link rel="canonical" href="https://virtual-west.github.io/geometry-download/">
+    <meta property="og:url" content="https://virtual-west.github.io/geometry-download/">
+    <meta property="og:site_name" content="geometry-virtual-west-download">
+    <script type="application/ld+json">
+    {"name":"geometry-virtual-west-download","description":"for download","author":null,"@type":"WebSite","url":"ttps://virtual-west.github.io/geometry-download/","image":null,"publisher":null,"headline":"geometry-virtual-west-download","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+    <style type="text/css">
+        body, h1, h2, h3, h4, h5, a, p, span, article{
+  		font-family:'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
+	}
+	.body {
+            background-color: #24292e;
+            margin: 0;
+            padding: 0;
+        }
+        @media screen and (min-width:780px) {
+            .header {
+                height: 60px; 
+            }
+            .header .icon {
+                position: absolute;
+                left: 15px;
+                top: 15px;
+                height: 30px; 
+                width: 30px; 
+                background-size: 30px 30px; 
+            }
+            .content .h1 {
+                font-size: 40px;
+            }
+            .content .h3 {
+                font-size: 18px;
+            }
+            .none {
+                display: none;
+            }
+            .download {
+                border-radius: 4px;
+                padding: 0 20px;
+                margin-top: 60px;
+                line-height: 50px;
+                font-size: 20px;
+                width: 20%;
+            }
+            .mail {
+                border-radius: 4px;
+                padding: 0 20px;
+                margin-top: 60px;
+                line-height: 50px;
+                font-size: 12px;
+                width: 30%;
+            }
+        }
+        @media screen and (max-width:779px) {
+            .header {
+                height: 300px; 
+            }
+            .header .icon {
+                margin: 40px auto 0px auto; 
+                height: 120px; 
+                width: 120px; 
+                background-size: 120px 120px; 
+            }
+            .none {
+            }
+            .content .h1 {
+                font-size: 20px;
+            }
+            .content .h3 {
+                font-size: 18px;
+            }
+            .download {
+                border-radius: 4px;
+                padding: 0 20px;
+                margin-top: 60px;
+                line-height: 50px;
+                font-size: 20px;
+                width: 40%;
+            }
+            .mail {
+                border-radius: 4px;
+                padding: 0 20px;
+                margin-top: 60px;
+                line-height: 50px;
+                font-size: 12px;
+                width: 60%;
+            }
+        }
+        .header {
+            text-align: center;
+            background-color: #24292e;
+        }
+        .footer {
+            text-align: center;
+            background-color: #24292e!important;
+        }
+        .justify {
+            text-align: justify!important;
+            padding: 10%;
+        }
+        .header .icon {
+            display: inline-block; 
+            background-image: url('data:image/png;base64,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');
+        }
+        .download {
+            margin-left: auto;
+            margin-right: auto;
+            border: solid thin #EEE;
+            color: #EEE;
+            font-weight: lighter;
+            text-align: center;
+            cursor: pointer;
+        }
+        .mail {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin-left: auto;
+            margin-right: auto;
+            border: solid thin #EEE;
+            color: #EEE;
+            font-weight: lighter;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .content {
+            background-color: #383b3e;
+        }
+        .content .h1w {
+            margin: 0;
+            text-align: center;
+            color: #EEE;
+            line-height: 280px;
+        }
+        .content .h1w-thin {
+            margin: 0;
+            text-align: center;
+            color: #EEE;
+            font-weight: lighter;
+            line-height: 60px;
+        }
+        .content .h6w-thin {
+            font-size: 14px;
+            color: #EEE;
+            font-weight: lighter;
+            line-height: 40px;
+        }
+    </style>
+</head>
+<body class="body">
+    <div id="download" class="header">
+        <div class="icon"></div>
+        <div class="download none" onclick="download()">DOWNLOAD</div>
+    </div>
+    <div class="content">
+        <h1 class="h1 h1w-thin">&nbsp</h1>
+        <h1 class="h1 h1w-thin">&nbsp</h1>
+        <h1 class="h3 h1w-thin">小蜡烛</h1>
+        <h1 class="h3 h1w-thin">增强现实 x 祈福</h1>
+        <h1 class="h1 h1w-thin">&nbsp</h1>
+        <div class="download" onclick="download()">立即下载</div>
+        <h1 class="h1 h1w-thin">&nbsp</h1>
+    </div>
+    <div id="support" class="footer content">
+        <h1 class="h1 h1w-thin">&nbsp</h1>
+        <h1 class="h1 h1w-thin">&nbsp</h1>
+        <h1 class="h1 h1w-thin">如果您遇到如下:</h1>
+        <h1 class="h3 h1w-thin">AR场景初始化问题</h1>
+        <h1 class="h3 h1w-thin">iOS相机权限等问题</h1>
+        <h1 class="h3 h1w-thin">请联系我们的邮箱</h1>
+        <div class="mail" onclick="mail()">meloalright@gmail.com</div>
+        <h1 class="h1 h1w-thin">&nbsp</h1>
+    </div>
+    <div id="privacy" class="content">
+        <h1 class="h1 h1w-thin">&nbsp</h1>
+        <h1 class="h3 h1w-thin">用户隐私协议</h1>
+        <h1 class="h6w-thin justify">
+
+                [小蜡烛]会一贯保证用户的隐私信息，[小蜡烛]将通过加密等技术手段及其他办法充分保护用户的个人隐私信息，除法律或有法律赋予权限的政府部门要求或事先得到用户明确授权等原因外，[小蜡烛]保证不对外公开或向第三方透露用户个人隐私信息，或用户在使用服务时存储的非公开内容。
+                同时，为了运营和改善[小蜡烛]的技术与服务，[小蜡烛]将可能会自行收集使用或向第三方提供用户的非个人隐私信息，这将有助于[小蜡烛]向用户提供更好的用户体验和服务质量。
+        </h1>
+        <h1 class="h1 h1w-thin">&nbsp</h1>
+        <h1 class="h3 h1w-thin">协议修改</h1>
+        <h1 class="h6w-thin justify">
+                根据互联网的发展和有关法律、法规及规范性文件的变化，或者因业务发展需要，[小蜡烛]有权对本协议的条款作出修改或变更，一旦本协议的内容发生变动，[小蜡烛]将会通过公示的方式告知用户修改之后的协议内容，该通知行为视为[小蜡烛]已经通知用户修改内容。
+                [小蜡烛]也可采用弹窗、信息流、电子邮件、电话或短信的传送方式，提示用户协议条款的修改、服务变更、或其它重要事项。
+                如果不同意[小蜡烛]对本协议相关条款所做的修改，用户有权并应当停止使用[小蜡烛]。如果用户继续使用[小蜡烛]，则视为用户接受[小蜡烛]对本协议相关条款所做的修改。
+
+        </h1>
+    </div>
+    <div class="footer content">
+        <h1 class="h1 h1w-thin">&nbsp</h1>
+        <h1 class="h1 h1w-thin">&nbsp</h1>
+        <h1 class="h3 h1w-thin">小蜡烛</h1>
+        <h1 class="h1 h1w-thin">&nbsp</h1>
+        <div class="download" onclick="download()">立即下载</div>
+        <h1 class="h1 h1w-thin">&nbsp</h1>
+    </div>
+    <script type="text/javascript">
+        var download = function () {
+            if (navigator.userAgent.toLocaleLowerCase().match(/iphone|ipad/)) {
+                alert('iOS 版本还未上线');
+                //location.href = 'https://itunes.apple.com/cn/app/%E7%AB%8B%E4%BD%93%E5%87%A0%E4%BD%95/id1332683088?mt=8';
+            }
+            else {
+                alert('Android 版本还未上线');
+		//alert('您即将前往iOS App Store');
+		//location.href = 'https://itunes.apple.com/cn/app/%E7%AB%8B%E4%BD%93%E5%87%A0%E4%BD%95/id1332683088?mt=8';
+            }
+        }
+        var mail = function () {
+            location.href = 'mailto:meloalright@gmail.com';
+        }
+    </script>
+</body>
+</html>
